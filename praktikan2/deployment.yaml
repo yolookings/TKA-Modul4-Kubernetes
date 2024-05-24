@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: praktikan2-nginx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: praktikan2-nginx
+  template:
+    metadata:
+      labels:
+        app: praktikan2-nginx
+    spec:
+      containers:
+        - name: praktikan2-nginx
+          image: mwlanaz/praktikan2-nginx
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: praktikan2-nginx
+spec:
+  selector:
+    app: praktikan2-nginx
+  ports:
+    - port: 80
+      targetPort: 80
