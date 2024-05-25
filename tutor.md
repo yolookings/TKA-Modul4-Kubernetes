@@ -16,7 +16,7 @@ mengecek apakah sudah running semua:
 ￼
 buat port forwarding bebas:
 Post forward 8081(nginx):
-![alt text](</img/ port-forward servicepraktikan2-nginx 808180.png>)
+![alt text](</img/kubectl port-forward servicepraktikan2-nginx 808180.png>)
 hasil:
 ![alt text](</img/Informasi Pribadi.png>)
 
