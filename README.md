@@ -5,3 +5,5 @@
 - Johanes Edward Nathanael
 - Randist Prawandha Putera
 - Maulana Ahmad Zahiri
+
+demonstrasi dalam bentuk video telah diselesaikan pada, 25 Mei 2024
